@@ -7,15 +7,10 @@ function age(){
         document.getElementById("age").innerHTML="Please Input Valid Data for Date ,Month and Year"
       }
 
-      else if(isNaN(d1)===true|| isNaN(m1)===false|| isNaN(y1)===false){
-        document.getElementById("age").innerHTML="Please Input Valid Data for Date "
+      else if(isNaN(d1)===true|| isNaN(m1)===true|| isNaN(y1)===true){
+        document.getElementById("age").innerHTML="Please Input Valid Data for Date Month Year"
       }
-      else if(isNaN(d1)===false|| isNaN(m1)===true|| isNaN(y1)===false){
-        document.getElementById("age").innerHTML="Please Input Valid Data for Month "
-      }
-      else if(isNaN(d1)===false|| isNaN(m1)===false|| isNaN(y1)===true){
-        document.getElementById("age").innerHTML="Please Input Valid Data for Year "
-      }
+    
       else{
         let date=new Date();
         let d2=date.getDate();
