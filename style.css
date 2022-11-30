@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(51, 133, 228);
+    margin: 0px;
+    padding: 0px;
+}
+.main-container{
+    background-color: white;
+    min-height: 150px;
+    width: 550px;
+    margin: 120px auto;
+    border-radius: 5px;
+    height: auto;
+}
+.box{
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+.box h3{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 0px;
+    color: rgb(87, 6, 236);
+    box-shadow: 0px 2px rgb(82, 55, 126);
+    font-weight: normal;
+    padding: 5px;
+}
+.box-1{
+    width: 138px;
+    padding:5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+    /* float: left; */
+}
+.tittle{
+    font-size: 20px;
+    text-align: left;
+    font-weight: normal;
+    color:  rgb(51, 133, 228);
+}
+input{
+    width: 142px;
+    margin:auto;
+    min-height: 30px;
+    border: 2px solid  rgb(51, 133, 228);
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 10px;
+}
+input[type=button]{
+    width: 150px;
+    margin-left:35% ;
+    margin-top: 40px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(51, 133, 228);
+    padding: 10px 12px;
+    font-size: 17px;
+    color: white;
+}
+#age{
+    display: block;
+    margin: 10px;
+    margin-top: 35px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-weight: normal;
+    color: rgb(57, 12, 180);
+    text-align: center;
+}
